@@ -1,5 +1,5 @@
 # CCNA2020_DynamicRouting
-動態路由，由軟體輸入 route entry
+動態路由，由軟體輸入 route entry，倘若整個網域內有主機 ip 位址異動，網管人員不必手動更新，動態路由規則功能會幫助我們自動更新。
 
 
 # 架構圖範例
