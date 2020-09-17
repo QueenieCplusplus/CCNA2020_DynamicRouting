@@ -3,3 +3,31 @@
 
 
 # 架構圖範例
+
+
+                                 Internet (WAN)
+                                 
+                                       |
+                                       |
+                                       |
+                                       
+                                     (LAN)
+                                     
+                                       |
+                                       |
+                                       |
+                                     
+                                    Router 1
+                                    
+                                      / \
+                                     /   \
+                                    /     \
+                        
+                             Router 2      Router 3
+                             
+                               /              \
+                              /                \
+                             /                  \
+
+
+   
