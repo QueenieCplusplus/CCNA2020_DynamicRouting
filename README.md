@@ -96,3 +96,15 @@ terminal in R3
     S>* 10.0.0.0/24 [1/0] is directly connected, eth0
     C>* 192.168.0.0/24 is directly connected, eth0
 
+# 手動設定動態路由的前置作業
+
+terminal in R3
+
+    1.在此路由器上啟動軟體 ripd。
+    2.給予路由器主機名稱。（DNS）
+    3.配置密碼。
+    4.使密碼生效。
+    5.下指令 route rip 藉此啟動此路由功能。
+    6.下指令 network [ip/prefix] 藉此對區域網域進行監聽工作。
+    7.下指令 network [if] 針對此介面進行監聽。
+    8.重複 6-7 對個
