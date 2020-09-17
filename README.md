@@ -25,6 +25,8 @@
                                       /                    \
                                      /                      \
                                     /                        \
+                                    
+                               (Protecte LAN)                (Protecte LAN)
                         
                              Router 2                          Router 3
                        NIC1:192.168.0.2/24    --- SW 3 ---   NIC1:192.168.0.3/24
@@ -63,6 +65,24 @@ Router 3
     7.下軟體內建指令 sh ip route 檢視路由規則。
     
 terminal in R3
+
+    linux.R3> show ip route
+    Codes: K - kernel route, C - connected, S - static, R - RIP, O - OSPF,
+           I - ISIS, B - BGP, > - selected route, * - FIB route
+           
+GW
+
+           K>* 0.0.0.0/0 via 192.168.0.254, eth0  
+           
+LAN
+
+           C>* 192.168.0.0/24 is directly connected, eth0
+    
+    
+Protected LAN
+
+           C>* 192.168.10.0/24 is directly connected, eth1
+   
 
 
 
