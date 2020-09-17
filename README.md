@@ -109,3 +109,12 @@ terminal in R3
     7.下指令 network [if] 針對此介面進行監聽。
     8.重複 6-7 對個別區域網路進行 rip 路由規則的設定。
     9. logstdout 直接輸出。
+
+# R2 的設定
+
+與 R3 相同，除了 DN 和 IP/prefix 不同以外。
+
+
+# 對此架構中的 R2 、R3 下展示結果的指令
+
+     #telnet localhost [port]
