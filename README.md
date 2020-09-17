@@ -108,3 +108,4 @@ terminal in R3
     6.下指令 network [ip/prefix] 藉此對區域網域進行監聽工作。
     7.下指令 network [if] 針對此介面進行監聽。
     8.重複 6-7 對個別區域網路進行 rip 路由規則的設定。
+    9. logstdout 直接輸出。
