@@ -118,3 +118,4 @@ terminal in R3
 # 對此架構中的 R2 、R3 下展示結果的指令
 
      #telnet localhost [port]
+     
