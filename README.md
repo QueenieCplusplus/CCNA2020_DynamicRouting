@@ -118,4 +118,16 @@ terminal in R3
 # 對此架構中的 R2 、R3 下展示結果的指令
 
      #telnet localhost [port]
+     #sh ip route
+     
+     >>>
+     
+     Codes: K - kernel route, C - connected, S - static, R - RIP, O - OSPF,
+       B - BGP, > - selected route, * - FIB route
+
+      K>* 0.0.0.0/0 via 192.168.0.254, eth0
+      C>* 127.0.0.0/8 is directly connected, lo
+      C>* 192.168.0.0/24 is directly connected, eth0
+      R>* 192.168.5.0/24 [120/2] via 192.168.0.200, eth0, 00:06:48 <--- 出現 RIP 規則的更新結果。
+      C>* 192.168.10.0/24 is directly connected, eth1
      
