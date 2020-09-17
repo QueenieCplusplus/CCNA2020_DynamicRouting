@@ -85,4 +85,14 @@ Protected LAN
    
 
 
+# 手動增加額外的靜態路由
+
+terminal in R3
+
+    linux.R3> show ip route
+    Codes: K - kernel route, C - connected, S - static, R - RIP, O - OSPF,
+           I - ISIS, B - BGP, > - selected route, * - FIB route
+
+    S>* 10.0.0.0/24 [1/0] is directly connected, eth0
+    C>* 192.168.0.0/24 is directly connected, eth0
 
