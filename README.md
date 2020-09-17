@@ -60,4 +60,9 @@ Router 3
     4.使密碼生效。
     5.將軟體得到的資訊儲存到log檔中。
     6.下指令 netsate 檢視本機介面狀態。
+    7.下軟體內建指令 sh ip route 檢視路由規則。
+    
+terminal in R3
+
+
 
